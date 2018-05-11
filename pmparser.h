@@ -44,8 +44,8 @@ typedef struct procmaps_struct{
 
 	char pathname[600];		//< the path of the file that backs the area
 	//chained list
-	struct procmaps_struct* next;		//<handler of the chinaed list
-} procmaps_struct;
+	struct procmaps_struct* next;		//<handler of the chained list
+} procmaps_struct, pmStruct, *pmStruct_ptr;
 
 /**
  * pmparser_parse
